@@ -1,0 +1,279 @@
+﻿{
+  "_id": "5929a2a086f7744f4b234d43",
+  "_name": "item_equipment_rig_6h112",
+  "_parent": "5448e5284bdc2dcb718b4567",
+  "_type": "Item",
+  "_props": {
+    "AnimationVariantsNumber": 0,
+    "BackgroundColor": "default",
+    "CanRequireOnRagfair": false,
+    "CanSellOnRagfair": true,
+    "ConflictingItems": [],
+    "Description": "item_equipment_rig_6h112",
+    "DiscardLimit": -1,
+    "DiscardingBlock": false,
+    "DropSoundType": "None",
+    "ExamineExperience": 10,
+    "ExamineTime": 1,
+    "ExaminedByDefault": true,
+    "ExtraSizeDown": 0,
+    "ExtraSizeForceAdd": false,
+    "ExtraSizeLeft": 0,
+    "ExtraSizeRight": 0,
+    "ExtraSizeUp": 0,
+    "Height": 4,
+    "HideEntrails": true,
+    "InsuranceDisabled": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "IsLockedafterEquip": false,
+    "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+    "IsSecretExitRequirement": false,
+    "IsSpecialSlotOnly": false,
+    "IsUnbuyable": false,
+    "IsUndiscardable": false,
+    "IsUngivable": false,
+    "IsUnremovable": false,
+    "IsUnsaleable": false,
+    "ItemSound": "gear_generic",
+    "LeftHandItem": false,
+    "LootExperience": 60,
+    "MergesWithChildren": false,
+    "Name": "item_equipment_rig_6h112",
+    "NotShownInSlot": false,
+    "Prefab": {
+      "path": "assets/content/items/equipment/rig_6sh112/item_equipment_rig_6sh112.bundle",
+      "rcid": ""
+    },
+    "QuestItem": false,
+    "QuestStashMaxCount": 0,
+    "RagFairCommissionModifier": 1,
+    "RagfairLevelToTrade": 0,
+    "RarityPvE": "Common",
+    "RepairCost": 0,
+    "RepairSpeed": 0,
+    "ShortName": "item_equipment_rig_6h112",
+    "StackMaxSize": 1,
+    "StackObjectsCount": 1,
+    "Unlootable": false,
+    "UnlootableFromSide": [],
+    "UnlootableFromSlot": "FirstPrimaryWeapon",
+    "UsePrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "Weight": 1.7,
+    "Width": 3,
+    "CanPutIntoDuringTheRaid": true,
+    "CantRemoveFromSlotsDuringRaid": [],
+    "ForbidMissingVitalParts": false,
+    "ForbidNonEmptyContainers": false,
+    "Grids": [
+      {
+        "_name": "1",
+        "_id": "5929a2a086f7744f4b234d44",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "2",
+        "_id": "5929a2a086f7744f4b234d45",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "3",
+        "_id": "5929a2a086f7744f4b234d46",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "4",
+        "_id": "5929a2a086f7744f4b234d47",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "5",
+        "_id": "5929a2a086f7744f4b234d48",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "6",
+        "_id": "5929a2a086f7744f4b234d49",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "7",
+        "_id": "5929a2cd86f77451162fd13c",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "8",
+        "_id": "5929a2dc86f7744f4b234d4a",
+        "_parent": "5929a2a086f7744f4b234d43",
+        "_props": {
+          "filters": [
+            {
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ],
+              "Filter": [
+                "54009119af1c881c07000029"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      }
+    ],
+    "Slots": [],
+    "BlocksArmorVest": false,
+    "SearchSound": "looting_body_extended",
+    "ArmorMaterial": "UHMWPE",
+    "ArmorType": "None",
+    "BluntThroughput": 0,
+    "MetascoreGroup": "Utility",
+    "RigLayoutName": "6h112",
+    "armorClass": 0,
+    "armorZone": [],
+    "mousePenalty": 0,
+    "speedPenaltyPercent": 0,
+    "weaponErgonomicPenalty": 0
+  },
+  "_proto": "544a5caa4bdc2d1a388b4568"
+}
