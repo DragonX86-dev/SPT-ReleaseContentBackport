@@ -2,7 +2,10 @@
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
@@ -13,7 +16,6 @@ namespace ReleaseContentBackport;
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
 public class ReleaseContentBackportExtension(
-    JsonUtil jsonUtil,
     ModHelper modHelper,
     DatabaseServer databaseServer,
     CustomItemService customItemService,
@@ -25,8 +27,14 @@ public class ReleaseContentBackportExtension(
     {
         _pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         
-        AddItemsToDatabase(new List<string> {"db", "ammo.json"}.CombinePaths());
-        AddItemsToDatabase(new List<string> {"db", "ammoboxes.json"}.CombinePaths());
+        AddItemsToDatabase(new List<string> {"data", "ammo.json"}.CombinePaths());
+        logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition.", LogTextColor.Green);
+        
+        AddItemsToDatabase(new List<string> {"data", "ammo_boxes.json"}.CombinePaths());
+        logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition boxes.", LogTextColor.Green);
+        
+        AddGlobalPresetsToDatabase(new List<string> {"data", "item_presets.json"}.CombinePaths());
+        logger.LogWithColor("[ReleaseContentBackport] Loaded item presets.", LogTextColor.Green);
         
         return Task.CompletedTask;
     }
@@ -38,6 +46,16 @@ public class ReleaseContentBackportExtension(
         foreach (var item in items)
         {
             customItemService.CreateItem(item);
+        }
+    }
+
+    private void AddGlobalPresetsToDatabase(string dataFilePath)
+    {
+        var itemPresets = modHelper.GetJsonDataFromFile<Preset[]>(_pathToMod, dataFilePath);
+
+        foreach (var preset in itemPresets)
+        {
+            databaseServer.GetTables().Globals.ItemPresets[preset.Id] = preset;
         }
     }
 }

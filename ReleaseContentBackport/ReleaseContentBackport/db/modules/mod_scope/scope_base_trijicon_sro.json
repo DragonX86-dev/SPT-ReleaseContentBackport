@@ -1,0 +1,124 @@
+﻿{
+  "_id": "688b44cb28bf8d85cd0ff108",
+  "_name": "scope_base_trijicon_sro",
+  "_parent": "55818acf4bdc2dde698b456b",
+  "_type": "Item",
+  "_props": {
+    "AnimationVariantsNumber": 0,
+    "BackgroundColor": "blue",
+    "CanRequireOnRagfair": false,
+    "CanSellOnRagfair": true,
+    "ConflictingItems": [],
+    "Description": "scope_base_trijicon_sro",
+    "DiscardLimit": -1,
+    "DiscardingBlock": false,
+    "DropSoundType": "None",
+    "ExamineExperience": 2,
+    "ExamineTime": 1,
+    "ExaminedByDefault": true,
+    "ExtraSizeDown": 0,
+    "ExtraSizeForceAdd": false,
+    "ExtraSizeLeft": 0,
+    "ExtraSizeRight": 0,
+    "ExtraSizeUp": 0,
+    "Height": 1,
+    "HideEntrails": false,
+    "InsuranceDisabled": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "IsLockedafterEquip": false,
+    "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+    "IsSecretExitRequirement": false,
+    "IsSpecialSlotOnly": false,
+    "IsUnbuyable": false,
+    "IsUndiscardable": false,
+    "IsUngivable": false,
+    "IsUnremovable": false,
+    "IsUnsaleable": false,
+    "ItemSound": "mod",
+    "LeftHandItem": false,
+    "LootExperience": 10,
+    "MergesWithChildren": true,
+    "Name": "scope_base_trijicon_sro",
+    "NotShownInSlot": false,
+    "Prefab": {
+      "path": "assets/content/items/mods/scopes/scope_base_trijicon_sro.bundle",
+      "rcid": ""
+    },
+    "QuestItem": false,
+    "QuestStashMaxCount": 0,
+    "RagFairCommissionModifier": 1,
+    "RagfairLevelToTrade": 0,
+    "RarityPvE": "Superrare",
+    "RepairCost": 0,
+    "RepairSpeed": 0,
+    "ShortName": "scope_base_trijicon_sro",
+    "StackMaxSize": 1,
+    "StackObjectsCount": 1,
+    "Unlootable": false,
+    "UnlootableFromSide": [],
+    "UnlootableFromSlot": "FirstPrimaryWeapon",
+    "UsePrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "Weight": 0.025,
+    "Width": 1,
+    "CanPutIntoDuringTheRaid": true,
+    "CantRemoveFromSlotsDuringRaid": [],
+    "ForbidMissingVitalParts": false,
+    "ForbidNonEmptyContainers": false,
+    "Grids": [],
+    "Slots": [],
+    "Accuracy": 0,
+    "BlocksCollapsible": false,
+    "BlocksFolding": false,
+    "CategoryAnimationModId": 0,
+    "DoubleActionAccuracyPenaltyMult": 1,
+    "Durability": 100,
+    "EffectiveDistance": 0,
+    "Ergonomics": 0,
+    "HasShoulderContact": false,
+    "IsAnimated": false,
+    "Loudness": 0,
+    "MetascoreGroup": "Firepower",
+    "RaidModdable": true,
+    "Recoil": 0,
+    "SightingRange": 150,
+    "ToolModdable": true,
+    "UniqueAnimationModID": 0,
+    "Velocity": 0,
+    "AdjustableOpticSensitivity": 0,
+    "AdjustableOpticSensitivityMax": 0,
+    "AimSensitivity": [
+      [
+        0.7
+      ]
+    ],
+    "CalibrationDistances": [
+      [
+        25,
+        50,
+        100
+      ]
+    ],
+    "CustomAimPlane": "",
+    "IsAdjustableOptic": false,
+    "MinMaxFov": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ModesCount": [
+      1
+    ],
+    "ScopesCount": 1,
+    "ZoomSensitivity": 0,
+    "Zooms": [
+      [
+        1
+      ]
+    ],
+    "sightModType": "reflex"
+  },
+  "_proto": "544a39de4bdc2d24388b4567"
+}

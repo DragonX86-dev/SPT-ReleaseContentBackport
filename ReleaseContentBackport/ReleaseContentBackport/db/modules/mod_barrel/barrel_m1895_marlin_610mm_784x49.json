@@ -1,0 +1,164 @@
+﻿{
+  "_id": "67c5425e26265106dd0697a7",
+  "_name": "barrel_m1895_marlin_610mm_784x49",
+  "_parent": "555ef6e44bdc2de9068b457e",
+  "_type": "Item",
+  "_props": {
+    "AnimationVariantsNumber": 0,
+    "BackgroundColor": "blue",
+    "CanRequireOnRagfair": false,
+    "CanSellOnRagfair": true,
+    "ConflictingItems": [],
+    "Description": "barrel_m1895_marlin_610mm_784x49",
+    "DiscardLimit": -1,
+    "DiscardingBlock": false,
+    "DropSoundType": "None",
+    "ExamineExperience": 6,
+    "ExamineTime": 1,
+    "ExaminedByDefault": true,
+    "ExtraSizeDown": 0,
+    "ExtraSizeForceAdd": false,
+    "ExtraSizeLeft": 2,
+    "ExtraSizeRight": 0,
+    "ExtraSizeUp": 0,
+    "Height": 1,
+    "HideEntrails": false,
+    "InsuranceDisabled": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "IsLockedafterEquip": true,
+    "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+    "IsSecretExitRequirement": false,
+    "IsSpecialSlotOnly": false,
+    "IsUnbuyable": false,
+    "IsUndiscardable": false,
+    "IsUngivable": false,
+    "IsUnremovable": false,
+    "IsUnsaleable": false,
+    "ItemSound": "mod",
+    "LeftHandItem": false,
+    "LootExperience": 20,
+    "MergesWithChildren": true,
+    "Name": "barrel_m1895_marlin_610mm_784x49",
+    "NotShownInSlot": false,
+    "Prefab": {
+      "path": "assets/content/items/mods/barrels/barrel_m1895_marlin_610mm_784x49.bundle",
+      "rcid": ""
+    },
+    "QuestItem": false,
+    "QuestStashMaxCount": 0,
+    "RagFairCommissionModifier": 1,
+    "RagfairLevelToTrade": 0,
+    "RarityPvE": "Not_exist",
+    "RepairCost": 0,
+    "RepairSpeed": 0,
+    "ShortName": "barrel_m1895_marlin_610mm_784x49",
+    "StackMaxSize": 1,
+    "StackObjectsCount": 1,
+    "Unlootable": false,
+    "UnlootableFromSide": [],
+    "UnlootableFromSlot": "FirstPrimaryWeapon",
+    "UsePrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "Weight": 1.1,
+    "Width": 4,
+    "CanPutIntoDuringTheRaid": true,
+    "CantRemoveFromSlotsDuringRaid": [],
+    "ForbidMissingVitalParts": false,
+    "ForbidNonEmptyContainers": false,
+    "Grids": [],
+    "Slots": [
+      {
+        "_name": "mod_handguard",
+        "_id": "67c5425e26265106dd0697aa",
+        "_parent": "67c5425e26265106dd0697a7",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "67c542aeb032bbdb530201c6",
+                "67c542c126265106dd0697ab",
+                "67c542baac40c36449066500",
+                "67c5429fac40c364490664f8",
+                "67ff26a2abb53266190dfc6c",
+                "67ff2792ea587611b0080956",
+                "67ff279dea587611b008095d",
+                "67ff24b9079850d544096ea6",
+                "67ff24c0abb53266190dfc66"
+              ],
+              "Shift": 0
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": false,
+        "_proto": "55d30c4c4bdc2db4468b457e"
+      },
+      {
+        "_name": "mod_sight_front",
+        "_id": "67caf383ad34b60dbc024af1",
+        "_parent": "67c5425e26265106dd0697a7",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "67c54270b032bbdb530201c2",
+                "67c5427eac40c364490664f6"
+              ],
+              "Shift": 0
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": false,
+        "_proto": "55d30c4c4bdc2db4468b457e"
+      },
+      {
+        "_name": "mod_sight_rear",
+        "_id": "67caf38c998d5a0fb809fe76",
+        "_parent": "67c5425e26265106dd0697a7",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "67c5428ab032bbdb530201c4"
+              ],
+              "Shift": 0
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": false,
+        "_proto": "55d30c4c4bdc2db4468b457e"
+      }
+    ],
+    "Accuracy": 0,
+    "BlocksCollapsible": false,
+    "BlocksFolding": false,
+    "CategoryAnimationModId": 0,
+    "DoubleActionAccuracyPenaltyMult": 1,
+    "Durability": 100,
+    "EffectiveDistance": 0,
+    "Ergonomics": -14,
+    "HasShoulderContact": false,
+    "IsAnimated": false,
+    "Loudness": 0,
+    "MetascoreGroup": "Firepower",
+    "RaidModdable": false,
+    "Recoil": -9,
+    "SightingRange": 0,
+    "ToolModdable": true,
+    "UniqueAnimationModID": 0,
+    "Velocity": -2.8,
+    "CenterOfImpact": 0.038,
+    "CoolFactor": 0.95,
+    "DeviationCurve": 1.15,
+    "DeviationMax": 31,
+    "DurabilityBurnModificator": 1,
+    "HeatFactor": 0.93,
+    "IsSilencer": false,
+    "ShotgunDispersion": 1
+  },
+  "_proto": "55d448594bdc2d8c2f8b4569"
+}
