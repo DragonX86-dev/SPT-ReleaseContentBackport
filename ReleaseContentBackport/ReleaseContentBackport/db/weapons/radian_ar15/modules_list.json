@@ -1,0 +1,116 @@
+﻿[
+  {
+    "id": "6761765f1f08ed5e8800b7a6",
+    "name": "mag_stanag_beta_c_mag_556x45_100",
+    "type": "mod_magazine",
+    "childs": []
+  },
+  {
+    "id": "68a63b73c92ee33ffa01bf57",
+    "name": "mag_stanag_colt_ar15_std_556x45_20",
+    "type": "mod_magazine",
+    "childs": []
+  },
+
+  {
+    "id": "6895becad55f0ebf6a0c0311",
+    "name": "",
+    "type": "mod_reciever",
+    "childs": [
+      {
+        "id": "68a5ab09c44fa287ba0a97b5",
+        "name": "scope_all_falke_falke_le",
+        "type": "mod_scope",
+        "childs": []
+      },
+      {
+        "id": "688a0bf28cdd409ce60911ce",
+        "name": "mount_all_meprolight_mepro_m21_mount",
+        "type": "mod_scope",
+        "childs": [
+          {
+            "id": "688a0b38467521f9080693a3",
+            "name": "scope_base_meprolight_mepro_m21",
+            "type": "mod_scope",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68caacc7933990601c07f479",
+        "name": "mount_all_arms_22_scope_rings_high",
+        "type": "mod_scope",
+        "childs": [
+          {
+            "id": "68caad7f933990601c07f47c",
+            "name": "scope_30mm_leupold_mark_4_mr_t_ts_30a2_25_8x36",
+            "type": "mod_scope",
+            "childs": []
+          },
+          {
+            "id": "68caace5f42a4476cf0be2b4",
+            "name": "mount_base_arms_22_ring_cap",
+            "type": "mod_mount",
+            "childs": []
+          },
+          {
+            "id": "68caacf7c8ac87b10507c5a9",
+            "name": "mount_base_arms_22_trr",
+            "type": "mod_mount",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68caacb4c8ac87b10507c5a6",
+        "name": "mount_ar15_precision_reflex_spr_peq_rifle_lenght_top_rail_gen_3",
+        "type": "mod_scope",
+        "childs": []
+      },
+
+      {
+        "id": "68a86bd51d1284a8e20e39d5",
+        "name": "barrel_ar15_ba_292mm",
+        "type": "mod_barrel",
+        "childs": []
+      },
+      {
+        "id": "68caabc3f42a4476cf0be2a6",
+        "name": "",
+        "type": "mod_barrel",
+        "childs": []
+      },
+      {
+        "id": "68caaa93269e10396503acf6",
+        "name": "",
+        "type": "mod_barrel",
+        "childs": []
+      },
+      {
+        "id": "68a63ac58e1fe612970728f2",
+        "name": "",
+        "type": "mod_barrel",
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": "68a63b90e1fb670852024659",
+    "name": "",
+    "type": "mod_reciever",
+    "childs": []
+  },
+  {
+    "id": "68a63b9b8e1fe612970728f7",
+    "name": "",
+    "type": "mod_reciever",
+    "childs": []
+  },
+  
+  {
+    "id": "",
+    "name": "",
+    "type": "",
+    "childs": []
+  }
+]

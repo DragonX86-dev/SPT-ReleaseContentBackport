@@ -1,0 +1,308 @@
+﻿[
+  {
+    "id": "68235b0b7d3ccc3ca20f4d01",
+    "name": "muzzle_ak12_brt_m24_thread_adapter",
+    "type": "mod_muzzle",
+    "childs": [
+      {
+        "id": "68540aae1e5c6ff6f1051477",
+        "name": "muzzle_ak74_arsenal_4_piece_flash_hider_762x39",
+        "type": "mod_muzzle",
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": "68d5674bb2573b07dc0d225f",
+    "name": "pistolgrip_ak_zenit_rk3_fde",
+    "type": "mod_pistol_grip",
+    "childs": []
+  },
+  {
+    "id": "688c9df121038434840a1e06",
+    "name": "stock_ak_jmac_rsa_1913_adapter",
+    "type": "mod_stock_001",
+    "childs": [
+      {
+        "id": "68badb6458dbe419740b1520",
+        "name": "stock_all_magpul_ucs",
+        "type": "mod_stock",
+        "childs": [
+          {
+            "id": "68badc0366a72211fe004bc7",
+            "name": "stock_ucs_magpul_ucs_buttstock_cheek",
+            "type": "mod_stock_000",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68d566f3f3d7cd248f0a06db",
+        "name": "stock_all_magpul_ucs_fde",
+        "type": "mod_stock",
+        "childs": [
+          {
+            "id": "68badc0366a72211fe004bc7",
+            "name": "stock_ucs_magpul_ucs_buttstock_cheek",
+            "type": "mod_stock_000",
+            "childs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "68d566b2aa07af2e14059e01",
+    "name": "mag_ak74_magpul_pmag_30_ak74_gen_m3_545x39_30_fde",
+    "type": "mod_magazine",
+    "childs": []
+  },
+  {
+    "id": "682315b0f8d8f8681e0744b0",
+    "name": "handguard_ak12_lac_akvilon15_mlok",
+    "type": "mod_handguard",
+    "childs": [
+      {
+        "id": "68bedc0365e7dcf94f0cb0fc",
+        "name": "tactical_all_insight_anpeq15_blk",
+        "type": "mod_tactical",
+        "childs": []
+      },
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_000",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_001",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_002",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "682315bdf8d8f8681e0744b5",
+    "name": "handguard_ak12_tactical_ideas_n4_ak12_mlok",
+    "type": "mod_handguard",
+    "childs": [
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_000",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_001",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "689c8b454b91399db3085f2a",
+        "name": "mount_m_lok_arisaka_inline_scout_mount",
+        "type": "mod_mount_002",
+        "childs": [
+          {
+            "id": "689c887cd18a3665b8045743",
+            "name": "flashlight_surefire_m600_ultra_scout",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "682315c58639961c6001dbe7",
+    "name": "handguard_ak12_zenit_sport_12",
+    "type": "mod_handguard",
+    "childs": [
+      {
+        "id": "682317428639961c6001dbf1",
+        "name": "mount_zenit_zenit_b2u",
+        "type": "mod_foregrip",
+        "childs": []
+      },
+      {
+        "id": "682317390ee6ef08a60e4547",
+        "name": "mount_zenit_zenit_b2",
+        "type": "mod_mount_000",
+        "childs": [
+          {
+            "id": "689c8981bce76ccfbf01862f",
+            "name": "mount_all_surefire_scout_thumbscrew_mount",
+            "type": "mod_tactical",
+            "childs": [
+              {
+                "id": "689c887cd18a3665b8045743",
+                "name": "flashlight_surefire_m600_ultra_scout",
+                "type": "mod_tactical",
+                "childs": []
+              }
+            ]
+          },
+          {
+            "id": "68bedc0365e7dcf94f0cb0fc",
+            "name": "tactical_all_insight_anpeq15_blk",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "682317390ee6ef08a60e4547",
+        "name": "mount_zenit_zenit_b2",
+        "type": "mod_mount_001",
+        "childs": [
+          {
+            "id": "689c8981bce76ccfbf01862f",
+            "name": "mount_all_surefire_scout_thumbscrew_mount",
+            "type": "mod_tactical",
+            "childs": [
+              {
+                "id": "689c887cd18a3665b8045743",
+                "name": "flashlight_surefire_m600_ultra_scout",
+                "type": "mod_tactical",
+                "childs": []
+              }
+            ]
+          },
+          {
+            "id": "68bedc0365e7dcf94f0cb0fc",
+            "name": "tactical_all_insight_anpeq15_blk",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "682317390ee6ef08a60e4547",
+        "name": "mount_zenit_zenit_b2",
+        "type": "mod_mount_002",
+        "childs": [
+          {
+            "id": "689c8981bce76ccfbf01862f",
+            "name": "mount_all_surefire_scout_thumbscrew_mount",
+            "type": "mod_tactical",
+            "childs": [
+              {
+                "id": "689c887cd18a3665b8045743",
+                "name": "flashlight_surefire_m600_ultra_scout",
+                "type": "mod_tactical",
+                "childs": []
+              }
+            ]
+          },
+          {
+            "id": "68bedc0365e7dcf94f0cb0fc",
+            "name": "tactical_all_insight_anpeq15_blk",
+            "type": "mod_tactical",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "682315d08639961c6001dbec",
+        "name": "handguard_ak12_zenit_sport_12_cover",
+        "type": "mod_mount_003",
+        "childs": [
+          {
+            "id": "682317390ee6ef08a60e4547",
+            "name": "mount_zenit_zenit_b2",
+            "type": "mod_mount_000",
+            "childs": [
+              {
+                "id": "689c8981bce76ccfbf01862f",
+                "name": "mount_all_surefire_scout_thumbscrew_mount",
+                "type": "mod_tactical",
+                "childs": [
+                  {
+                    "id": "689c887cd18a3665b8045743",
+                    "name": "flashlight_surefire_m600_ultra_scout",
+                    "type": "mod_tactical",
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "id": "68bedc0365e7dcf94f0cb0fc",
+                "name": "tactical_all_insight_anpeq15_blk",
+                "type": "mod_tactical",
+                "childs": []
+              }
+            ]
+          },
+          {
+            "id": "682317390ee6ef08a60e4547",
+            "name": "mount_zenit_zenit_b2",
+            "type": "mod_mount_001",
+            "childs": [
+              {
+                "id": "689c8981bce76ccfbf01862f",
+                "name": "mount_all_surefire_scout_thumbscrew_mount",
+                "type": "mod_tactical",
+                "childs": [
+                  {
+                    "id": "689c887cd18a3665b8045743",
+                    "name": "flashlight_surefire_m600_ultra_scout",
+                    "type": "mod_tactical",
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "id": "68bedc0365e7dcf94f0cb0fc",
+                "name": "tactical_all_insight_anpeq15_blk",
+                "type": "mod_tactical",
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
