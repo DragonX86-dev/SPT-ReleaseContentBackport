@@ -16,6 +16,8 @@
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll"
               DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/" />
+        <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\data\items.json"
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/data/" />
     </Target>
 
     <Target Name="ZipOutputPath" AfterTargets="Build">

@@ -1,0 +1,136 @@
+﻿[
+  {
+    "id": "689167d79f03ec70cb0ea066",
+    "name": "muzzle_ak308_izhmash_ak308_flash_hider_std_762x51",
+    "type": "mod_muzzle",
+    "childs": [
+      {
+        "id": "68d56685f3d7cd248f0a06d9",
+        "name": "silencer_base_izhmash_ak308_qd_std_762x51",
+        "type": "mod_muzzle",
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": "68d5674bb2573b07dc0d225f",
+    "name": "pistolgrip_ak_zenit_rk3_fde",
+    "type": "mod_pistol_grip",
+    "childs": []
+  },
+  {
+    "id": "689167248f19dbc8190728ed",
+    "name": "reciever_ak308_izhmash_ak308_std",
+    "type": "mod_reciever",
+    "childs": [
+      {
+        "id": "688a0bf28cdd409ce60911ce",
+        "name": "mount_all_meprolight_mepro_m21_mount",
+        "type": "mod_scope",
+        "childs": [
+          {
+            "id": "688a0b38467521f9080693a3",
+            "name": "scope_base_meprolight_mepro_m21",
+            "type": "mod_scope",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68caacc7933990601c07f479",
+        "name": "mount_all_arms_22_scope_rings_high",
+        "type": "mod_scope",
+        "childs": [
+          {
+            "id": "68caad7f933990601c07f47c",
+            "name": "scope_30mm_leupold_mark_4_mr_t_ts_30a2_25_8x36",
+            "type": "mod_scope",
+            "childs": []
+          },
+          {
+            "id": "68caace5f42a4476cf0be2b4",
+            "name": "mount_base_arms_22_ring_cap",
+            "type": "mod_mount",
+            "childs": []
+          },
+          {
+            "id": "68caacf7c8ac87b10507c5a9",
+            "name": "mount_base_arms_22_trr",
+            "type": "mod_mount",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68a5ab09c44fa287ba0a97b5",
+        "name": "scope_all_falke_falke_le",
+        "type": "mod_scope",
+        "childs": []
+      },
+      {
+        "id": "68916765fa628c6b9f0ed6f6",
+        "name": "sight_rear_all_izhmash_ak308_rear_sight_base",
+        "type": "mod_sight_rear",
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": "688c9df121038434840a1e06",
+    "name": "stock_ak_jmac_rsa_1913_adapter",
+    "type": "mod_stock_001",
+    "childs": [
+      {
+        "id": "68badb6458dbe419740b1520",
+        "name": "stock_all_magpul_ucs",
+        "type": "mod_stock",
+        "childs": [
+          {
+            "id": "68badc0366a72211fe004bc7",
+            "name": "stock_ucs_magpul_ucs_buttstock_cheek",
+            "type": "mod_stock_000",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": "68d566f3f3d7cd248f0a06db",
+        "name": "stock_all_magpul_ucs_fde",
+        "type": "mod_stock",
+        "childs": [
+          {
+            "id": "68badc0366a72211fe004bc7",
+            "name": "stock_ucs_magpul_ucs_buttstock_cheek",
+            "type": "mod_stock_000",
+            "childs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "68916701bd91cc17c109c758",
+    "name": "mag_ak308_izhmash_ak308_std_762x51_20",
+    "type": "mod_magazine",
+    "childs": []
+  },
+  {
+    "id": "68935269af943a06e8038c58",
+    "name": "mag_ak308_promag_saiga308_762x51_24",
+    "type": "mod_magazine",
+    "childs": []
+  },
+  {
+    "id": "689166debd91cc17c109c753",
+    "name": "handguard_ak308_izhmash_ak308_std",
+    "type": "mod_handguard",
+    "childs": [
+      {
+        "id": "68bedc0365e7dcf94f0cb0fc",
+        "name": "tactical_all_insight_anpeq15_blk",
+        "type": "mod_tactical",
+        "childs": []
+      }
+    ]
+  }
+]

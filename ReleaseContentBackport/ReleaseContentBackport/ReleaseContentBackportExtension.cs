@@ -11,12 +11,14 @@ using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
+using Path = System.IO.Path;
 
 namespace ReleaseContentBackport;
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
 public class ReleaseContentBackportExtension(
     ModHelper modHelper,
+    JsonUtil jsonUtil,
     DatabaseServer databaseServer,
     CustomItemService customItemService,
     ISptLogger<ReleaseContentBackportExtension> logger) : IOnLoad
@@ -26,15 +28,24 @@ public class ReleaseContentBackportExtension(
     public Task OnLoad()
     {
         _pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+
+        var items = jsonUtil.DeserializeFromFile<Dictionary<MongoId, TemplateItem>>(
+            Path.Combine(_pathToMod, "data/items.json")
+            )!;
+
+        foreach (var item in items)
+        {
+            logger.LogWithColor(item.Key, LogTextColor.Magenta);
+        }
         
-        AddItemsToDatabase(new List<string> {"data", "ammo.json"}.CombinePaths());
-        logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition.", LogTextColor.Green);
-        
-        AddItemsToDatabase(new List<string> {"data", "ammo_boxes.json"}.CombinePaths());
-        logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition boxes.", LogTextColor.Green);
-        
-        AddGlobalPresetsToDatabase(new List<string> {"data", "item_presets.json"}.CombinePaths());
-        logger.LogWithColor("[ReleaseContentBackport] Loaded item presets.", LogTextColor.Green);
+        // AddItemsToDatabase(new List<string> {"data", "ammo.json"}.CombinePaths());
+        // logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition.", LogTextColor.Green);
+        //
+        // AddItemsToDatabase(new List<string> {"data", "ammo_boxes.json"}.CombinePaths());
+        // logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition boxes.", LogTextColor.Green);
+        //
+        // AddGlobalPresetsToDatabase(new List<string> {"data", "item_presets.json"}.CombinePaths());
+        // logger.LogWithColor("[ReleaseContentBackport] Loaded item presets.", LogTextColor.Green);
         
         return Task.CompletedTask;
     }
