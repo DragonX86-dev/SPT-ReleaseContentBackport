@@ -10,28 +10,55 @@
     </PropertyGroup>
 
     <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">
-        <RemoveDir Directories="./bin/;./build/;./dist/" />
+        <RemoveDir Directories="./bin/;./build/;./dist/"/>
     </Target>
 
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+        <ItemGroup>
+            <DataFilesToCopy Include="bin\$(Configuration)\$(TargetFramework)\data\**\*"/>
+        </ItemGroup>
+        
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/" />
-        <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\data\items.json"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/data/" />
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+        <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\bundles.json"
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+        <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\config.json"
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+
+        <Copy SourceFiles="@(DataFilesToCopy)"
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/data/%(RecursiveDir)"/>
     </Target>
 
     <Target Name="ZipOutputPath" AfterTargets="Build">
-        <MakeDir Directories="./dist" Condition="!Exists('./dist')" />
+        <MakeDir Directories="./dist" Condition="!Exists('./dist')"/>
         <Delete Files="./dist/$(AssemblyName)-$(Version).zip"
-                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')" />
+                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')"/>
         <ZipDirectory SourceDirectory="./build"
-                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip" />
+                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip"/>
     </Target>
 
     <ItemGroup>
-        <PackageReference Include="SPTarkov.Common" Version="4.0.7" />
-        <PackageReference Include="SPTarkov.DI" Version="4.0.7" />
-        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7" />
+        <PackageReference Include="SPTarkov.Common" Version="4.0.7"/>
+        <PackageReference Include="SPTarkov.DI" Version="4.0.7"/>
+        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7"/>
     </ItemGroup>
-    
+
+    <ItemGroup>
+        <None Update="bundles.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="config.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="modules.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\itemsConfig.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\modules.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
 </Project>

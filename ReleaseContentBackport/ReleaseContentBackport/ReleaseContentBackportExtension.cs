@@ -1,10 +1,12 @@
 ﻿using System.Reflection;
+using ReleaseContentBackport.Models;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
@@ -18,7 +20,6 @@ namespace ReleaseContentBackport;
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
 public class ReleaseContentBackportExtension(
     ModHelper modHelper,
-    JsonUtil jsonUtil,
     DatabaseServer databaseServer,
     CustomItemService customItemService,
     ISptLogger<ReleaseContentBackportExtension> logger) : IOnLoad
@@ -28,35 +29,85 @@ public class ReleaseContentBackportExtension(
     public Task OnLoad()
     {
         _pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+        var config = modHelper.GetJsonDataFromFile<ModConfig>(_pathToMod, "config.json");
 
-        var items = jsonUtil.DeserializeFromFile<Dictionary<MongoId, TemplateItem>>(
-            Path.Combine(_pathToMod, "data/items.json")
-            )!;
-
-        foreach (var item in items)
+        if (config.RefSellsGpCoinEnable)
         {
-            logger.LogWithColor(item.Key, LogTextColor.Magenta);
+            AddGpCoinToRefAssortment();
         }
-        
-        // AddItemsToDatabase(new List<string> {"data", "ammo.json"}.CombinePaths());
-        // logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition.", LogTextColor.Green);
-        //
-        // AddItemsToDatabase(new List<string> {"data", "ammo_boxes.json"}.CombinePaths());
-        // logger.LogWithColor("[ReleaseContentBackport] Loaded new ammunition boxes.", LogTextColor.Green);
-        //
-        // AddGlobalPresetsToDatabase(new List<string> {"data", "item_presets.json"}.CombinePaths());
-        // logger.LogWithColor("[ReleaseContentBackport] Loaded item presets.", LogTextColor.Green);
+
+        AddNewWeaponModulesToDatabase();
+        LoadItemsConfig();
         
         return Task.CompletedTask;
     }
 
-    private void AddItemsToDatabase(string dataFilePath)
+    private void AddGpCoinToRefAssortment()
     {
-        var items = modHelper.GetJsonDataFromFile<NewItemDetails[]>(_pathToMod, dataFilePath);
+        var itemId = new MongoId();
+        var refTrader = databaseServer.GetTables().Traders[Traders.REF];
+        
+        refTrader.Assort.Items.Add(new Item
+        {
+            Id = itemId,
+            Template = ItemTpl.MONEY_GP_COIN,
+            ParentId = "hideout",
+            SlotId = "hideout",
+            Upd = new Upd
+            {
+                UnlimitedCount = true,
+                StackObjectsCount = 9999999
+            }
+        });
+
+        refTrader.Assort.LoyalLevelItems[itemId] = 1;
+        refTrader.Assort.BarterScheme[itemId] = [
+            [
+                new BarterScheme
+                {
+                    Count = 7500,
+                    Template = ItemTpl.MONEY_ROUBLES
+                }
+            ]
+        ];
+    }
+
+    private void AddNewWeaponModulesToDatabase()
+    {
+        var items = modHelper.GetJsonDataFromFile<NewItemDetails[]>(_pathToMod, "data/modules.json");
 
         foreach (var item in items)
         {
             customItemService.CreateItem(item);
+        }
+    }
+
+    private void LoadItemsConfig()
+    {
+        var itemConfigs = modHelper.GetJsonDataFromFile<ItemConfig[]>(_pathToMod, "data/itemsConfig.json");
+
+        foreach (var itemConfig in itemConfigs)
+        {
+            var existItem = databaseServer.GetTables().Templates.Items[itemConfig.Id];
+            
+            itemConfig.ConflictingItems.ForEach(conflictingItemId =>
+            {
+                existItem.Properties?.ConflictingItems?.Add(conflictingItemId);
+            });
+
+            foreach (var (modName, newItemIds) in itemConfig.CompatibleItems)
+            {
+                newItemIds.ForEach(newItemId =>
+                {
+                    var item = databaseServer.GetTables().Templates.Items[itemConfig.Id];
+                    var slot = item.Properties?.Slots?.FirstOrDefault(e => e.Name == modName);
+                    
+                    if (slot != null)
+                    {
+                        slot.Properties?.Filters?.First().Filter?.Add(newItemId);
+                    }
+                });
+            }
         }
     }
 

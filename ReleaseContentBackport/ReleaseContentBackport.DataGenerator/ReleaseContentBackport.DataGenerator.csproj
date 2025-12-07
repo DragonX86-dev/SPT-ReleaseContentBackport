@@ -7,100 +7,46 @@
         <Configuration>Release</Configuration>
         <AssemblyName>ReleaseContentBackportDataGenerator</AssemblyName>
         <Version>1.0.0</Version>
-        <RootFolder>C:\Program Files\EFT\SPT\user\mods</RootFolder>
+        <RootFolder>C:\Games\Escape from Tarkov\SPT\user\mods</RootFolder>
     </PropertyGroup>
 
     <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">
-        <RemoveDir Directories="./bin/;$(RootFolder)/$(AssemblyName)/" />
+        <RemoveDir Directories="./bin/;$(RootFolder)/$(AssemblyName)/"/>
     </Target>
 
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
         <ItemGroup>
-            <DataFilesToCopy Include="bin\$(Configuration)\$(TargetFramework)\data\**\*" />
+            <DataFilesToCopy Include="bin\$(Configuration)\$(TargetFramework)\data\**\*"/>
         </ItemGroup>
-        
+
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/" />
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
         <Copy SourceFiles="@(DataFilesToCopy)"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/data/%(RecursiveDir)" />
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/data/%(RecursiveDir)"/>
     </Target>
 
     <ItemGroup>
-        <PackageReference Include="SPTarkov.Common" Version="4.0.7" />
-        <PackageReference Include="SPTarkov.DI" Version="4.0.7" />
-        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7" />
+        <PackageReference Include="SPTarkov.Common" Version="4.0.7"/>
+        <PackageReference Include="SPTarkov.DI" Version="4.0.7"/>
+        <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7"/>
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="data\items.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\items-prices.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\ak308_modules_list.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\en.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\ru.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\vi.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\tu.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\th.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\po.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\it.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\hu.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\sk.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\ro.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\pl.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\kr.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\jp.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\in.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\ge.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\es.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\es-mx.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\fr.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\cz.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="data\locales\ch.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+        <None Update="data\items.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\items-prices.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\categoriesWhiteList.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\locales\en.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\locales\ru.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 </Project>
