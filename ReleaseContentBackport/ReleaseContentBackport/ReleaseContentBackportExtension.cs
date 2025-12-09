@@ -37,8 +37,10 @@ public class ReleaseContentBackportExtension(
         }
 
         AddNewWeaponModulesToDatabase();
-        LoadItemsConfig();
         LoadTraderAssort();
+        LoadItemsConfig();
+        
+        logger.LogWithColor("[ReleaseContentBackport] The mod is loaded");
         
         return Task.CompletedTask;
     }
