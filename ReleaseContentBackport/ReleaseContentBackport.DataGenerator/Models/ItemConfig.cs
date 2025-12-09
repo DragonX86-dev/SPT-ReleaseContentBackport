@@ -10,9 +10,6 @@ public record ItemConfig
     
     [JsonPropertyName("name")]
     public required string Name { get; init; }
-
-    [JsonPropertyName("is_new")] 
-    public bool IsNew { get; init; } = true;
     
     [JsonPropertyName("compatibleItems")]
     public required Dictionary<string, List<MongoId>> CompatibleItems { get; init; }

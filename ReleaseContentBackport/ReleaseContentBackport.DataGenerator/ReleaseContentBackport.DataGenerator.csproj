@@ -7,7 +7,7 @@
         <Configuration>Release</Configuration>
         <AssemblyName>ReleaseContentBackportDataGenerator</AssemblyName>
         <Version>1.0.0</Version>
-        <RootFolder>C:\Games\Escape from Tarkov\SPT\user\mods</RootFolder>
+        <RootFolder>C:\Program Files\EFT\SPT\user\mods</RootFolder>
     </PropertyGroup>
 
     <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">
@@ -46,6 +46,15 @@
         </None>
         <None Update="data\locales\ru.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\categories\moduleCategories.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\categories\weaponCategories.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\trader_config.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
 

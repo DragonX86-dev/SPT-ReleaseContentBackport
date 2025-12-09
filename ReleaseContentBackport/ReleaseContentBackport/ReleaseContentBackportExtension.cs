@@ -38,6 +38,7 @@ public class ReleaseContentBackportExtension(
 
         AddNewWeaponModulesToDatabase();
         LoadItemsConfig();
+        LoadTraderAssort();
         
         return Task.CompletedTask;
     }
@@ -79,6 +80,23 @@ public class ReleaseContentBackportExtension(
         foreach (var item in items)
         {
             customItemService.CreateItem(item);
+        }
+    }
+
+    private void LoadTraderAssort()
+    {
+        var traderAssorts = modHelper.GetJsonDataFromFile<CustomTraderAssort[]>(
+            _pathToMod, "data/traderAssort.json"
+        );
+
+        foreach (var traderAssort in traderAssorts)
+        {
+            var itemId = traderAssort.Item.Id;
+            var trader = databaseServer.GetTables().Traders[traderAssort.TraderId];
+            
+            trader.Assort.Items.Add(traderAssort.Item);
+            trader.Assort.LoyalLevelItems[itemId] = traderAssort.LoyaltyLevel;
+            trader.Assort.BarterScheme[itemId] = [traderAssort.BarterScheme];
         }
     }
 

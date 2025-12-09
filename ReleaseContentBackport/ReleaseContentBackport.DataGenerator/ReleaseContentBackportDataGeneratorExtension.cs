@@ -6,6 +6,7 @@ using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
@@ -23,97 +24,164 @@ public class ReleaseContentBackportDataGeneratorExtension(
     ISptLogger<ReleaseContentBackportDataGeneratorExtension> logger) : IOnLoad
 {
     private string _modPath = null!;
-    
+
     private readonly List<ItemConfig> _items = [];
 
     public Task OnLoad()
     {
         _modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
-        GenerateItemsConfig();
-        SaveWeaponModulesNewItemDetails();
-        SaveModulesCompabilityConfig();
-        // SaveAllItems();
+        // GenerateAndSaveModulesNewItemDetails();
+        // GenerateAndSaveWeaponsNewItemDetails();
+        // GenerateAndSaveItemsConfig();
+        GenerateAndSaveModulesTraderAssort();
 
         return Task.CompletedTask;
     }
 
-    private void GenerateItemsConfig()
+    private void GenerateAndSaveModulesNewItemDetails()
     {
-        var categoriesWhiteList = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categoriesWhiteList.json"
+        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
+            _modPath, "data/categories/moduleCategories.json"
         );
+        var items = GenerateNewItemDetails(moduleCategories);
 
-        foreach (var releaseItem in GlobalValues.ReleaseItems)
-        {
-            if (!categoriesWhiteList.Contains(releaseItem.Value.Parent))
-            {
-                continue;
-            }
-
-            var conflictingItems = (releaseItem.Value.Properties?.ConflictingItems ?? Enumerable.Empty<MongoId>())
-                .Where(conflictingItem => !databaseServer.GetTables().Templates.Items.ContainsKey(conflictingItem))
-                .ToList();
-
-            var compatibleItems = (releaseItem.Value.Properties?.Slots ?? [])
-                .SelectMany(slot =>
-                    (slot.Properties?.Filters?.FirstOrDefault()?.Filter ?? [])
-                    .Where(compatibleItemId =>
-                        !databaseServer.GetTables().Templates.Items.ContainsKey(compatibleItemId))
-                    .Select(compatibleItemId => new { SlotName = slot.Name!, CompatibleItemId = compatibleItemId })
-                )
-                .GroupBy(x => x.SlotName, x => x.CompatibleItemId)
-                .ToDictionary(g => g.Key, g => g.ToList());
-
-            var newModuleItem = new ItemConfig
-            {
-                Id = releaseItem.Key,
-                Name = releaseItem.Value.Name!,
-                ConflictingItems = conflictingItems,
-                CompatibleItems = compatibleItems
-            };
-
-            if (databaseServer.GetTables().Templates.Items.ContainsKey(releaseItem.Key))
-            {
-                if (conflictingItems.Count != 0 || compatibleItems.Keys.Count != 0)
-                {
-                    _items.Add(newModuleItem with { IsNew = false });
-                }
-            }
-            else
-            {
-                _items.Add(newModuleItem);
-            }
-        }
+        File.WriteAllText(
+            Path.Combine(_modPath, "modules.json"),
+            jsonUtil.Serialize(items),
+            Encoding.UTF8
+        );
     }
 
-    private void SaveWeaponModulesNewItemDetails()
+    private void GenerateAndSaveWeaponsNewItemDetails()
     {
-        var result = new List<NewItemDetails>();
-        
-        var weaponModules = _items.Where(e => e.IsNew && !e.Name.StartsWith("weapon_"));
-        
-        // ReSharper disable once LoopCanBeConvertedToQuery
-        foreach (var weaponModule in weaponModules)
-        {
-            var item = GlobalValues.ReleaseItems[weaponModule.Id];
-            if (item.Name != weaponModule.Name)
-            {
-                continue;
-            }
-    
-            var price = GlobalValues.ItemPrices[weaponModule.Id];
+        var weaponsCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
+            _modPath, "data/categories/weaponCategories.json"
+        );
+        var items = GenerateNewItemDetails(weaponsCategories);
 
-            var handbookItem = databaseServer
-                .GetTables()
+        File.WriteAllText(
+            Path.Combine(_modPath, "weapons.json"),
+            jsonUtil.Serialize(items),
+            Encoding.UTF8
+        );
+    }
+
+    private void GenerateAndSaveItemsConfig()
+    {
+        var weaponsCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
+            _modPath, "data/categories/weaponCategories.json");
+        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
+            _modPath, "data/categories/moduleCategories.json");
+
+        var itemsConfig = GenerateItemsConfig(weaponsCategories.Concat(moduleCategories).ToList());
+        File.WriteAllText(
+            Path.Combine(_modPath, "itemsConfig.json"),
+            jsonUtil.Serialize(itemsConfig),
+            Encoding.UTF8
+        );
+    }
+
+    private void GenerateAndSaveModulesTraderAssort()
+    {
+        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
+            _modPath, "data/categories/moduleCategories.json"
+        );
+        var traderConfigs = modHelper.GetJsonDataFromFile<TraderConfig[]>(
+            _modPath, "data/trader_config.json"
+        );
+
+        var weaponModuleItems = GenerateNewItemDetails(moduleCategories).Select(e => e.NewItem!.Id).ToList();
+
+        var traderAssortItems = new List<TraderAssortItem>();
+        foreach (var traderConfig in traderConfigs)
+        {
+            traderAssortItems.AddRange(
+                from cashOffer in traderConfig.CashOffers
+                where weaponModuleItems.Contains(cashOffer.Item.Id)
+                select new TraderAssortItem
+                {
+                    TraderId = traderConfig.Id,
+                    Item = new Item
+                    {
+                        Id = new MongoId(),
+                        Template = cashOffer.Item.Id,
+                        ParentId = "hideout",
+                        SlotId = "hideout",
+                        Upd = new Upd
+                        {
+                            UnlimitedCount = true, 
+                            StackObjectsCount = 9999999, 
+                            BuyRestrictionMax = cashOffer.BuyLimit,
+                            BuyRestrictionCurrent = 0
+                        }
+                    },
+                    BarterScheme = [new BarterScheme
+                    {
+                        Count = cashOffer.Price, 
+                        Template = cashOffer.CurrencyItem.Id
+                    }],
+                    LoyaltyLevel = cashOffer.Level,
+                    SubItems = []
+                }
+            );
+
+            traderAssortItems.AddRange(
+                from traderBarter in traderConfig.Barters
+                where MongoId.IsValidMongoId(traderBarter.RewardItems.First().Item.Id)
+                      && weaponModuleItems.Contains(traderBarter.RewardItems.First().Item.Id)
+                select new TraderAssortItem
+                {
+                    TraderId = traderConfig.Id,
+                    Item = new Item
+                    {
+                        Id = new MongoId(),
+                        Template = traderBarter.RewardItems.First().Item.Id,
+                        ParentId = "hideout",
+                        SlotId = "hideout",
+                        Upd = new Upd
+                        {
+                            UnlimitedCount = true,
+                            StackObjectsCount = 9999999,
+                            BuyRestrictionMax = traderBarter.BuyLimit, 
+                            BuyRestrictionCurrent = 0
+                        }
+                    },
+                    BarterScheme = traderBarter.RequiredItems
+                        .Select(item => new BarterScheme
+                        {
+                            Count = Math.Round(item.Count), 
+                            Template = item.Item.Id
+                        })
+                        .ToList(),
+                    LoyaltyLevel = traderBarter.Level,
+                    SubItems = []
+                }
+            );
+        }
+        
+        File.WriteAllText(
+            Path.Combine(_modPath, "traderAssortItems.json"),
+            jsonUtil.Serialize(traderAssortItems),
+            Encoding.UTF8
+        );
+    }
+
+    private List<NewItemDetails> GenerateNewItemDetails(List<MongoId> categoriesWhitelist)
+    {
+        return (
+            from releaseItem in GlobalValues.ReleaseItems
+            where !databaseServer.GetTables().Templates.Items.ContainsKey(releaseItem.Key) &&
+                  categoriesWhitelist.Contains(releaseItem.Value.Parent)
+            let price = GlobalValues.ItemPrices[releaseItem.Value.Id]
+            let handbookItem = databaseServer.GetTables()
                 .Templates
                 .Handbook
                 .Items
-                .FirstOrDefault(e => e.Id == new MongoId(item.Prototype));
-            
-            result.Add(new NewItemDetails
+                .FirstOrDefault(e => e.Id == new MongoId(releaseItem.Value.Prototype))
+            select new NewItemDetails
             {
-                NewItem = item,
+                NewItem = releaseItem.Value,
                 FleaPriceRoubles = price,
                 HandbookPriceRoubles = price,
                 HandbookParentId = handbookItem != null ? handbookItem.ParentId : "",
@@ -121,30 +189,48 @@ public class ReleaseContentBackportDataGeneratorExtension(
                 {
                     ["en"] = new()
                     {
-                        Name = GlobalValues.EnItemLocales[weaponModule.Id].Name,
-                        ShortName = GlobalValues.EnItemLocales[weaponModule.Id].ShortName,
-                        Description = GlobalValues.EnItemLocales[weaponModule.Id].Description,
+                        Name = GlobalValues.EnItemLocales[releaseItem.Value.Id].Name,
+                        ShortName = GlobalValues.EnItemLocales[releaseItem.Value.Id].ShortName,
+                        Description = GlobalValues.EnItemLocales[releaseItem.Value.Id].Description,
                     },
                     ["ru"] = new()
                     {
-                        Name = GlobalValues.RuItemLocales[weaponModule.Id].Name,
-                        ShortName = GlobalValues.RuItemLocales[weaponModule.Id].ShortName,
-                        Description = GlobalValues.RuItemLocales[weaponModule.Id].Description,
+                        Name = GlobalValues.RuItemLocales[releaseItem.Value.Id].Name,
+                        ShortName = GlobalValues.RuItemLocales[releaseItem.Value.Id].ShortName,
+                        Description = GlobalValues.RuItemLocales[releaseItem.Value.Id].Description,
                     }
                 }
-            });
-        }
-        
-        var modulesJsonStr = jsonUtil.Serialize(result);
-        File.WriteAllText(Path.Combine(_modPath, "modules.json"), modulesJsonStr, Encoding.UTF8);
+            }
+        ).ToList();
     }
 
-    private void SaveModulesCompabilityConfig()
+    private List<ItemConfig> GenerateItemsConfig(List<MongoId> categoriesWhitelist)
     {
-        var itemsConfig = jsonUtil.Serialize(_items.Where(e => !e.IsNew));
-        File.WriteAllText(Path.Combine(_modPath, "itemsConfig.json"), itemsConfig, Encoding.UTF8);
+        return (from releaseItem in GlobalValues.ReleaseItems
+            where databaseServer.GetTables().Templates.Items.ContainsKey(releaseItem.Key)
+                  && categoriesWhitelist.Contains(releaseItem.Value.Parent)
+            let conflictingItems =
+                (releaseItem.Value.Properties?.ConflictingItems ?? Enumerable.Empty<MongoId>())
+                .Where(conflictingItem => !databaseServer.GetTables().Templates.Items.ContainsKey(conflictingItem))
+                .ToList()
+            let compatibleItems = (releaseItem.Value.Properties?.Slots ?? [])
+                .SelectMany(slot => (slot.Properties?.Filters?.FirstOrDefault()?.Filter ?? [])
+                    .Where(compatibleItemId =>
+                        !databaseServer.GetTables().Templates.Items.ContainsKey(compatibleItemId))
+                    .Select(compatibleItemId => new { SlotName = slot.Name!, CompatibleItemId = compatibleItemId }))
+                .GroupBy(x => x.SlotName, x => x.CompatibleItemId)
+                .ToDictionary(g => g.Key, g => g.ToList())
+            let itemConfig = new ItemConfig
+            {
+                Id = releaseItem.Key,
+                Name = releaseItem.Value.Name!,
+                ConflictingItems = conflictingItems,
+                CompatibleItems = compatibleItems
+            }
+            where conflictingItems.Count != 0 || compatibleItems.Keys.Count != 0
+            select itemConfig).ToList();
     }
-    
+
     private void SaveAllItems()
     {
         var itemsConfig = jsonUtil.Serialize(_items);

@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="ReleaseContentBackport.DataGenerator/ReleaseContentBackport.DataGenerator.csproj">
+  <Project Path="ReleaseContentBackport.DataGenerator/ReleaseContentBackport.DataGenerator.csproj" />
+  <Project Path="ReleaseContentBackport/ReleaseContentBackport.csproj">
     <Build Solution="Release|*" Project="false" />
   </Project>
-  <Project Path="ReleaseContentBackport/ReleaseContentBackport.csproj" />
 </Solution>
