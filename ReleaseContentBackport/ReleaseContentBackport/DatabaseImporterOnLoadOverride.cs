@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Runtime.CompilerServices;
+﻿using System.Runtime.CompilerServices;
 using ReleaseContentBackport.Globals;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
