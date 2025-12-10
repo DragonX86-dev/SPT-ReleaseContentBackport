@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using ReleaseContentBackport.Globals;
 using ReleaseContentBackport.Models;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
@@ -74,9 +75,7 @@ public class ReleaseContentBackportExtension(
 
     private void AddNewWeaponModulesToDatabase()
     {
-        var items = modHelper.GetJsonDataFromFile<NewItemDetails[]>(_pathToMod, "data/modules.json");
-
-        foreach (var item in items)
+        foreach (var item in GlobalValues.NewItemDetails)
         {
             customItemService.CreateItem(item);
         }
@@ -84,15 +83,10 @@ public class ReleaseContentBackportExtension(
 
     private void LoadTraderAssort()
     {
-        var traderAssorts = modHelper.GetJsonDataFromFile<CustomTraderAssort[]>(
-            _pathToMod, "data/traderAssort.json"
-        );
-
-        foreach (var traderAssort in traderAssorts)
+        foreach (var traderAssort in GlobalValues.TraderAssort)
         {
             var itemId = traderAssort.Item.Id;
             var trader = databaseServer.GetTables().Traders[traderAssort.TraderId];
-            trader.Base.ItemsSell![$"{traderAssort.LoyaltyLevel}"].IdList.Add(itemId);
             
             trader.Assort.Items.Add(traderAssort.Item);
             trader.Assort.LoyalLevelItems[itemId] = traderAssort.LoyaltyLevel;
@@ -102,9 +96,7 @@ public class ReleaseContentBackportExtension(
 
     private void LoadItemsConfig()
     {
-        var itemConfigs = modHelper.GetJsonDataFromFile<ItemConfig[]>(_pathToMod, "data/itemsConfig.json");
-
-        foreach (var itemConfig in itemConfigs)
+        foreach (var itemConfig in GlobalValues.ItemConfigs)
         {
             var existItem = databaseServer.GetTables().Templates.Items[itemConfig.Id];
             

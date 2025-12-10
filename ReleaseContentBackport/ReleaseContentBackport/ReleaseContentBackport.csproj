@@ -7,10 +7,14 @@
         <Configuration>Release</Configuration>
         <AssemblyName>ReleaseContentBackport</AssemblyName>
         <Version>1.0.0</Version>
+        <RootFolder>C:\Program Files\EFT\SPT\user\mods</RootFolder>
     </PropertyGroup>
 
+<!--    <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">-->
+<!--        <RemoveDir Directories="./bin/;./build/;./dist/"/>-->
+<!--    </Target>-->
     <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">
-        <RemoveDir Directories="./bin/;./build/;./dist/"/>
+        <RemoveDir Directories="./bin/;$(RootFolder)/$(AssemblyName)/"/>
     </Target>
 
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
@@ -19,28 +23,29 @@
         </ItemGroup>
         
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\bundles.json"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\config.json"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
 
         <Copy SourceFiles="@(DataFilesToCopy)"
-              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/data/%(RecursiveDir)"/>
+              DestinationFolder="$(RootFolder)/$(AssemblyName)/data/%(RecursiveDir)"/>
     </Target>
 
-    <Target Name="ZipOutputPath" AfterTargets="Build">
-        <MakeDir Directories="./dist" Condition="!Exists('./dist')"/>
-        <Delete Files="./dist/$(AssemblyName)-$(Version).zip"
-                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')"/>
-        <ZipDirectory SourceDirectory="./build"
-                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip"/>
-    </Target>
+<!--    <Target Name="ZipOutputPath" AfterTargets="Build">-->
+<!--        <MakeDir Directories="./dist" Condition="!Exists('./dist')"/>-->
+<!--        <Delete Files="./dist/$(AssemblyName)-$(Version).zip"-->
+<!--                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')"/>-->
+<!--        <ZipDirectory SourceDirectory="./build"-->
+<!--                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip"/>-->
+<!--    </Target>-->
 
     <ItemGroup>
         <PackageReference Include="SPTarkov.Common" Version="4.0.7"/>
         <PackageReference Include="SPTarkov.DI" Version="4.0.7"/>
         <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7"/>
+        <PackageReference Include="SPTarkov.Reflection" Version="4.0.7" />
     </ItemGroup>
 
     <ItemGroup>
