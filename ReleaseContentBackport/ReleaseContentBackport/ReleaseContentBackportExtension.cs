@@ -7,13 +7,10 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
-using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services.Mod;
-using SPTarkov.Server.Core.Utils;
-using Path = System.IO.Path;
 
 namespace ReleaseContentBackport;
 
@@ -95,6 +92,7 @@ public class ReleaseContentBackportExtension(
         {
             var itemId = traderAssort.Item.Id;
             var trader = databaseServer.GetTables().Traders[traderAssort.TraderId];
+            trader.Base.ItemsSell![$"{traderAssort.LoyaltyLevel}"].IdList.Add(itemId);
             
             trader.Assort.Items.Add(traderAssort.Item);
             trader.Assort.LoyalLevelItems[itemId] = traderAssort.LoyaltyLevel;
