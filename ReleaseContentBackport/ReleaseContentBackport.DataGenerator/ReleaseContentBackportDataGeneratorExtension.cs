@@ -16,7 +16,7 @@ using Path = System.IO.Path;
 
 namespace ReleaseContentBackport.DataGenerator;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader)]
 public class ReleaseContentBackportDataGeneratorExtension(
     ModHelper modHelper,
     JsonUtil jsonUtil,
@@ -25,43 +25,26 @@ public class ReleaseContentBackportDataGeneratorExtension(
 {
     private string _modPath = null!;
 
-    private readonly List<ItemConfig> _items = [];
-
     public Task OnLoad()
     {
         _modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
-        // GenerateAndSaveModulesNewItemDetails();
-        // GenerateAndSaveWeaponsNewItemDetails();
+        GenerateAndSaveNewItemDetails();
         // GenerateAndSaveItemsConfig();
-        GenerateAndSaveModulesTraderAssort();
+        // GenerateAndSaveModulesTraderAssort();
+        SaveNewItemsAssetsPaths();
 
         return Task.CompletedTask;
     }
 
-    private void GenerateAndSaveModulesNewItemDetails()
+    private void GenerateAndSaveNewItemDetails()
     {
-        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categories/moduleCategories.json"
+        var items = GenerateNewItemDetails(
+            GlobalValues.ModuleCategories.Concat(GlobalValues.WeaponCategories).ToList()
         );
-        var items = GenerateNewItemDetails(moduleCategories);
 
         File.WriteAllText(
-            Path.Combine(_modPath, "modules.json"),
-            jsonUtil.Serialize(items),
-            Encoding.UTF8
-        );
-    }
-
-    private void GenerateAndSaveWeaponsNewItemDetails()
-    {
-        var weaponsCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categories/weaponCategories.json"
-        );
-        var items = GenerateNewItemDetails(weaponsCategories);
-
-        File.WriteAllText(
-            Path.Combine(_modPath, "weapons.json"),
+            Path.Combine(_modPath, "newItemDetails.json"),
             jsonUtil.Serialize(items),
             Encoding.UTF8
         );
@@ -69,12 +52,10 @@ public class ReleaseContentBackportDataGeneratorExtension(
 
     private void GenerateAndSaveItemsConfig()
     {
-        var weaponsCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categories/weaponCategories.json");
-        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categories/moduleCategories.json");
-
-        var itemsConfig = GenerateItemsConfig(weaponsCategories.Concat(moduleCategories).ToList());
+        var itemsConfig = GenerateItemsConfig(
+            GlobalValues.ModuleCategories.Concat(GlobalValues.WeaponCategories).ToList()
+        );
+        
         File.WriteAllText(
             Path.Combine(_modPath, "itemsConfig.json"),
             jsonUtil.Serialize(itemsConfig),
@@ -84,14 +65,13 @@ public class ReleaseContentBackportDataGeneratorExtension(
 
     private void GenerateAndSaveModulesTraderAssort()
     {
-        var moduleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(
-            _modPath, "data/categories/moduleCategories.json"
-        );
         var traderConfigs = modHelper.GetJsonDataFromFile<TraderConfig[]>(
             _modPath, "data/trader_config.json"
         );
 
-        var weaponModuleItems = GenerateNewItemDetails(moduleCategories).Select(e => e.NewItem!.Id).ToList();
+        var weaponModuleItems = GenerateNewItemDetails(
+            GlobalValues.ModuleCategories
+        ).Select(e => e.NewItem!.Id).ToList();
 
         var traderAssortItems = new List<TraderAssortItem>();
         foreach (var traderConfig in traderConfigs)
@@ -231,17 +211,20 @@ public class ReleaseContentBackportDataGeneratorExtension(
             select itemConfig).ToList();
     }
 
-    private void SaveAllItems()
+    private void SaveNewItemsAssetsPaths()
     {
-        var itemsConfig = jsonUtil.Serialize(_items);
-        File.WriteAllText(Path.Combine(_modPath, "allItems.json"), itemsConfig, Encoding.UTF8);
-    }
+        var newItems = GenerateNewItemDetails(
+            GlobalValues.ModuleCategories.Concat(GlobalValues.WeaponCategories).ToList());
 
-    private void SaveItemsCategories()
-    {
-        var itemsCategoriesJsonStr = jsonUtil.Serialize(
-            GlobalValues.ReleaseItems.Select(e => e.Value.Parent).Distinct()
+        var assetsPaths = newItems
+            .Select(e => e.NewItem!.Id)
+            .Select(newItemId => GlobalValues.ReleaseItems[newItemId].Properties!.Prefab!.Path!)
+            .ToList();
+
+        File.WriteAllText(
+            Path.Combine(_modPath, "assets_paths.json"), 
+            jsonUtil.Serialize(assetsPaths), 
+            Encoding.UTF8
         );
-        File.WriteAllText(Path.Combine(_modPath, "itemsCategories.json"), itemsCategoriesJsonStr, Encoding.UTF8);
     }
 }

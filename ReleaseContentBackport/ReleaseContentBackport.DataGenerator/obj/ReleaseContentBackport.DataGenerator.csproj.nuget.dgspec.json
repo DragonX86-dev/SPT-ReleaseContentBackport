@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\denis\\Projects\\SPT-ReleaseContentBackport\\ReleaseContentBackport\\ReleaseContentBackport.DataGenerator\\ReleaseContentBackport.DataGenerator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\denis\\Projects\\SPT-ReleaseContentBackport\\ReleaseContentBackport\\ReleaseContentBackport.DataGenerator\\ReleaseContentBackport.DataGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\denis\\Projects\\SPT-ReleaseContentBackport\\ReleaseContentBackport\\ReleaseContentBackport.DataGenerator\\ReleaseContentBackport.DataGenerator.csproj",
+        "projectName": "ReleaseContentBackportDataGenerator",
+        "projectPath": "C:\\Users\\denis\\Projects\\SPT-ReleaseContentBackport\\ReleaseContentBackport\\ReleaseContentBackport.DataGenerator\\ReleaseContentBackport.DataGenerator.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\Projects\\SPT-ReleaseContentBackport\\ReleaseContentBackport\\ReleaseContentBackport.DataGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "SPTarkov.Common": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            },
+            "SPTarkov.DI": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            },
+            "SPTarkov.Server.Core": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

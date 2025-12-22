@@ -7,14 +7,11 @@
         <Configuration>Release</Configuration>
         <AssemblyName>ReleaseContentBackport</AssemblyName>
         <Version>1.0.0</Version>
-        <RootFolder>C:\Program Files\EFT\SPT\user\mods</RootFolder>
+        <RootFolder>C:\Games\Escape from Tarkov\SPT\user\mods</RootFolder>
     </PropertyGroup>
 
-<!--    <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">-->
-<!--        <RemoveDir Directories="./bin/;./build/;./dist/"/>-->
-<!--    </Target>-->
     <Target Name="RemoveDirectories" BeforeTargets="BeforeBuild">
-        <RemoveDir Directories="./bin/;$(RootFolder)/$(AssemblyName)/"/>
+        <RemoveDir Directories="./bin/;./build/;./dist/"/>
     </Target>
 
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
@@ -23,29 +20,28 @@
         </ItemGroup>
         
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\bundles.json"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
         <Copy SourceFiles="bin\$(Configuration)\$(TargetFramework)\config.json"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/"/>
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/"/>
 
         <Copy SourceFiles="@(DataFilesToCopy)"
-              DestinationFolder="$(RootFolder)/$(AssemblyName)/data/%(RecursiveDir)"/>
+              DestinationFolder="./build/SPT/user/mods/$(AssemblyName)/data/%(RecursiveDir)"/>
     </Target>
 
-<!--    <Target Name="ZipOutputPath" AfterTargets="Build">-->
-<!--        <MakeDir Directories="./dist" Condition="!Exists('./dist')"/>-->
-<!--        <Delete Files="./dist/$(AssemblyName)-$(Version).zip"-->
-<!--                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')"/>-->
-<!--        <ZipDirectory SourceDirectory="./build"-->
-<!--                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip"/>-->
-<!--    </Target>-->
+    <Target Name="ZipOutputPath" AfterTargets="Build">
+        <MakeDir Directories="./dist" Condition="!Exists('./dist')"/>
+        <Delete Files="./dist/$(AssemblyName)-$(Version).zip"
+                Condition="Exists('./dist/$(AssemblyName)-$(Version).zip')"/>
+        <ZipDirectory SourceDirectory="./build"
+                      DestinationFile="./dist/$(AssemblyName)-$(Version).zip"/>
+    </Target>
 
     <ItemGroup>
         <PackageReference Include="SPTarkov.Common" Version="4.0.7"/>
         <PackageReference Include="SPTarkov.DI" Version="4.0.7"/>
         <PackageReference Include="SPTarkov.Server.Core" Version="4.0.7"/>
-        <PackageReference Include="SPTarkov.Reflection" Version="4.0.7" />
     </ItemGroup>
 
     <ItemGroup>
@@ -55,18 +51,25 @@
         <None Update="config.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="modules.json">
+        <None Update="newItemDetails.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Update="data\itemsConfig.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="data\modules.json">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
         <None Update="data\traderAssort.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="data\newItemDetails.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="data\itemPresets.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="bundles\" />
     </ItemGroup>
 
 </Project>

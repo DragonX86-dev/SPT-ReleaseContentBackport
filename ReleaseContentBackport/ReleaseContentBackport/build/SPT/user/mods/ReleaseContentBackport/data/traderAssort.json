@@ -1,0 +1,4349 @@
+﻿[
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896b9d",
+            "_tpl": "689167d79f03ec70cb0ea066",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1467,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896b9e",
+            "_tpl": "68916765fa628c6b9f0ed6f6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1576,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896b9f",
+            "_tpl": "68aee9e31ef0d507780a61cd",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2747,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba0",
+            "_tpl": "68916701bd91cc17c109c758",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3778,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba1",
+            "_tpl": "68aeeb3e9df2c1144f0aaa4b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3859,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba2",
+            "_tpl": "68aee8f8130c00663d08aeb3",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6061,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba3",
+            "_tpl": "68aee9731ef0d507780a61c9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6194,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba4",
+            "_tpl": "689167248f19dbc8190728ed",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6372,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba5",
+            "_tpl": "68aef9bf4efeccb5220d25c6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 13100,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba6",
+            "_tpl": "689166debd91cc17c109c753",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 15092,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba7",
+            "_tpl": "68aee9fe130c00663d08aeb6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 19418,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba8",
+            "_tpl": "68d5676f43adc7372a0c8ae0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 19418,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896ba9",
+            "_tpl": "68be93d19bae3db9c5005b19",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 42783,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896baa",
+            "_tpl": "68aee9b89df2c1144f0aaa46",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 52320,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "54cb50c76803fa8b248b4571",
+        "item": {
+            "_id": "69382015a0c8862138896bab",
+            "_tpl": "68d56685f3d7cd248f0a06d9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 58337,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bac",
+            "_tpl": "68c16f15efac701f800dfd36",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1668,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bad",
+            "_tpl": "68c16fcffc90c174e50de1ae",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2059,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bae",
+            "_tpl": "68c16fe183e2d814b0093f7c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2059,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896baf",
+            "_tpl": "682317390ee6ef08a60e4547",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2070,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb0",
+            "_tpl": "682317428639961c6001dbf1",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2588,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb1",
+            "_tpl": "682315d08639961c6001dbec",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3277,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb2",
+            "_tpl": "68c1701cba442c811207608b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 4370,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb3",
+            "_tpl": "68c17005ba442c8112076088",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 4370,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb4",
+            "_tpl": "68124640c5fd00ec0a01a237",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 5175,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb5",
+            "_tpl": "68c2a99647eb77c6310b170f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6210,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb6",
+            "_tpl": "68c16f6883e2d814b0093f7a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7590,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb7",
+            "_tpl": "68d5674bb2573b07dc0d225f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9338,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb8",
+            "_tpl": "682315c58639961c6001dbe7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 10741,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bb9",
+            "_tpl": "68120dcbb90552f01004e5ca",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 10925,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bba",
+            "_tpl": "6811f4854922782caa087440",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11500,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bbb",
+            "_tpl": "6812180dc20f5c52bc04d6cc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11730,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bbc",
+            "_tpl": "681236df5cbf0518e00557a0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 13110,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bbd",
+            "_tpl": "68c294b9eb59c46bf6070536",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 15870,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bbe",
+            "_tpl": "68540aae1e5c6ff6f1051477",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 17020,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bbf",
+            "_tpl": "68712a7d505fed5f370b1633",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 134,
+                "_tpl": "569668774bdc2da2298b4568"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc0",
+            "_tpl": "68c1707983e2d814b0093f7e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 17480,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc1",
+            "_tpl": "68c2989dc9061bb2f50478f6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 17940,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc2",
+            "_tpl": "68c170e383e2d814b0093f87",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 18745,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc3",
+            "_tpl": "68c16e84fc90c174e50de1a8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 21735,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc4",
+            "_tpl": "68c294360f5ebd68290d6c16",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 22770,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc5",
+            "_tpl": "68c294800f5ebd68290d6c20",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 25760,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc6",
+            "_tpl": "681245a31eb182c02f0d7f09",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 29001,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc7",
+            "_tpl": "68c16edf83e2d814b0093f76",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 36570,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "58330581ace78e27b8b10cee",
+        "item": {
+            "_id": "69382015a0c8862138896bc8",
+            "_tpl": "68c294750f5ebd68290d6c1c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 38985,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bc9",
+            "_tpl": "68caac63269e10396503acfc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bca",
+            "_tpl": "68a641452258a88280055616",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bcb",
+            "_tpl": "68a63a9522b1e0bd360afe5f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 10,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bcc",
+            "_tpl": "68a6413b54ef229c4d089238",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bcd",
+            "_tpl": "68a63b03e1fb670852024656",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bce",
+            "_tpl": "68a63d4f22b1e0bd360afe6a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 12,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bcf",
+            "_tpl": "68caace5f42a4476cf0be2b4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 14,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd0",
+            "_tpl": "68a63b73c92ee33ffa01bf57",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 10,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 15,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd1",
+            "_tpl": "68a63ccc8a85019a82087956",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 15,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd2",
+            "_tpl": "68a63cb3e1fb670852024664",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 16,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd3",
+            "_tpl": "68badf5030572e90770cd688",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 16,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd4",
+            "_tpl": "68a63cc0c92ee33ffa01bf5c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 17,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd5",
+            "_tpl": "688b54a11cef2a61d005273b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 17,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd6",
+            "_tpl": "68a63c5ce1fb670852024661",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 20,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd7",
+            "_tpl": "688a0bf28cdd409ce60911ce",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 21,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd8",
+            "_tpl": "68a63d1522b1e0bd360afe67",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 24,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bd9",
+            "_tpl": "68d566b2aa07af2e14059e01",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 25,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bda",
+            "_tpl": "68caac96933990601c07f476",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 26,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bdb",
+            "_tpl": "68a63d3c8e977b40b2032286",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 27,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bdc",
+            "_tpl": "68a63ce2e1fb670852024667",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 29,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bdd",
+            "_tpl": "68d159d46c606e46b605094d",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 33,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bde",
+            "_tpl": "68caacf7c8ac87b10507c5a9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 34,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bdf",
+            "_tpl": "68caad70269e10396503ad00",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 34,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be0",
+            "_tpl": "68a63c998e1fe612970728fe",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 41,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be1",
+            "_tpl": "68a63b90e1fb670852024659",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 42,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be2",
+            "_tpl": "68a63b9b8e1fe612970728f7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 47,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be3",
+            "_tpl": "68a63c7322b1e0bd360afe65",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 56,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be4",
+            "_tpl": "68caacc7933990601c07f479",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 61,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be5",
+            "_tpl": "68caacb4c8ac87b10507c5a6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 63,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be6",
+            "_tpl": "68caabebc71156cf470bc186",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 73,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be7",
+            "_tpl": "68caac02269e10396503acfa",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 73,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be8",
+            "_tpl": "68caac14f42a4476cf0be2aa",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 74,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896be9",
+            "_tpl": "6889f1c4f7a5d7de7b089550",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 80,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bea",
+            "_tpl": "68a63cdac92ee33ffa01bf5f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 87,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896beb",
+            "_tpl": "68caac500bfe742288085e1e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 92,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bec",
+            "_tpl": "68a63bc422b1e0bd360afe61",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 94,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bed",
+            "_tpl": "68a63c1fc92ee33ffa01bf5a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 105,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bee",
+            "_tpl": "68caac360bfe742288085e16",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 115,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bef",
+            "_tpl": "68cc2ae66e59cb54f4054f47",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 120,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf0",
+            "_tpl": "68caac28f42a4476cf0be2ac",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 120,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf1",
+            "_tpl": "68bedc0365e7dcf94f0cb0fc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 180,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf2",
+            "_tpl": "68a86bd51d1284a8e20e39d5",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 200,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf3",
+            "_tpl": "688a0b38467521f9080693a3",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 230,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf4",
+            "_tpl": "688b44cb28bf8d85cd0ff108",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 234,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf5",
+            "_tpl": "688b4bd81cef2a61d0052738",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 234,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf6",
+            "_tpl": "68bb2a3831ee03fbc00931e6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 238,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf7",
+            "_tpl": "68bb25270e48a3afd7071216",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 238,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf8",
+            "_tpl": "6878c1c723c3173d7f06d926",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 220,
+                "_tpl": "569668774bdc2da2298b4568"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bf9",
+            "_tpl": "68a63ac58e1fe612970728f2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 320,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bfa",
+            "_tpl": "68caabc3f42a4476cf0be2a6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 328,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bfb",
+            "_tpl": "68caaa93269e10396503acf6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 356,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bfc",
+            "_tpl": "68caad12269e10396503acfe",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 451,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5935c25fb3acc3127c3d8cd9",
+        "item": {
+            "_id": "69382015a0c8862138896bfd",
+            "_tpl": "68caad7f933990601c07f47c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 583,
+                "_tpl": "5696686a4bdc2da3298b456a"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896bfe",
+            "_tpl": "67ff1eaf8e8db1dcb80ccad8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 820,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896bff",
+            "_tpl": "67c5414226265106dd06979c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 820,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c00",
+            "_tpl": "67c5427eac40c364490664f6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 860,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c01",
+            "_tpl": "67c5422726265106dd0697a2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 930,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c02",
+            "_tpl": "688b7c1b0e99e554a90c0fb7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1033,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c03",
+            "_tpl": "688c9df121038434840a1e06",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1085,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c04",
+            "_tpl": "688cbdc341e2a57a8f0c1c6c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1093,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c05",
+            "_tpl": "688b7b0d934c59b7bf0af0b7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c06",
+            "_tpl": "68712cafa1be89347f0d817c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c07",
+            "_tpl": "689c8981bce76ccfbf01862f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c08",
+            "_tpl": "67c541fcb032bbdb530201be",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1980,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c09",
+            "_tpl": "689c8a2b4b91399db3085f27",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2000,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0a",
+            "_tpl": "68235b0b7d3ccc3ca20f4d01",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2100,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0b",
+            "_tpl": "67c54210d0538d12ec036c0e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2160,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0c",
+            "_tpl": "689c8b454b91399db3085f2a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2200,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0d",
+            "_tpl": "67c542ecac40c36449066508",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2240,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0e",
+            "_tpl": "680b87fc9402a78e7504a057",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2433,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c0f",
+            "_tpl": "67c5411f26265106dd06979a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2760,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c10",
+            "_tpl": "67ff1e209d1f778973073376",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2760,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c11",
+            "_tpl": "68712b57a1be89347f0d8179",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3033,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c12",
+            "_tpl": "67ff1e2b3e43c3abb701c7c6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3120,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c13",
+            "_tpl": "680b884f1a335f66240ecde7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3325,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c14",
+            "_tpl": "68712bd4251b8d4c6c04ec19",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3547,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c15",
+            "_tpl": "67c5418f26265106dd06979e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3790,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c16",
+            "_tpl": "68935269af943a06e8038c58",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 4476,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c17",
+            "_tpl": "683060403b1bb49282023611",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 4750,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c18",
+            "_tpl": "68badc0366a72211fe004bc7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 5273,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c19",
+            "_tpl": "6830606e84a12bb973021fd0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6254,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1a",
+            "_tpl": "67c542aeb032bbdb530201c6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1b",
+            "_tpl": "67ff26a2abb53266190dfc6c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1c",
+            "_tpl": "688c86420e99e554a90c0fd6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6584,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1d",
+            "_tpl": "68305fdc84a12bb973021fc0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1e",
+            "_tpl": "6810ca87002deee76b04970b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c1f",
+            "_tpl": "6810d3d8dc7bbeec2f0081c9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c20",
+            "_tpl": "67ff24b9079850d544096ea6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7180,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c21",
+            "_tpl": "67ff24c0abb53266190dfc66",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7180,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c22",
+            "_tpl": "67c5429fac40c364490664f8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7180,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c23",
+            "_tpl": "688b79b5eb234c75d900e050",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7325,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c24",
+            "_tpl": "67ff2c16c593c7b94a095e56",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7480,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c25",
+            "_tpl": "67c541d45b84f7f36c03e557",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7480,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c26",
+            "_tpl": "680f6d9a4d7624d36e06527b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c27",
+            "_tpl": "67ff279dea587611b008095d",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7950,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c28",
+            "_tpl": "67ff2792ea587611b0080956",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7950,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c29",
+            "_tpl": "67c542baac40c36449066500",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 7950,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2a",
+            "_tpl": "680f7e4aeee716732708e84e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 8600,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2b",
+            "_tpl": "682315bdf8d8f8681e0744b5",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9050,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2c",
+            "_tpl": "68712ce2251b8d4c6c04ec1f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9346,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2d",
+            "_tpl": "67ff1f9f32abb9a4280b5178",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2e",
+            "_tpl": "67ff1fa88e8db1dcb80ccada",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c2f",
+            "_tpl": "67c541ca26265106dd0697a0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9450,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c30",
+            "_tpl": "687128c4505fed5f370b1625",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9814,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c31",
+            "_tpl": "6878c143254146e6fd043756",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 80,
+                "_tpl": "569668774bdc2da2298b4568"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c32",
+            "_tpl": "682315b0f8d8f8681e0744b0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 12537,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c33",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 12600,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c34",
+            "_tpl": "6878cc5bd0c26d57bf0aa37a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 13344,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c35",
+            "_tpl": "6830601984a12bb973021fc2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 13382,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c36",
+            "_tpl": "6810aa1474bf67765c02e91a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 14600,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c37",
+            "_tpl": "6810a469f6c2827d680d1f4c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 14600,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c38",
+            "_tpl": "681096b551511048940afed9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 16900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c39",
+            "_tpl": "68109a1f327033533604170a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 16900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3a",
+            "_tpl": "6878ccf4181ac8a5b5077236",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 18157,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3b",
+            "_tpl": "680f5953b93ecb502102816a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 18900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3c",
+            "_tpl": "680f55b71e275ac1230f2dc6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 18900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3d",
+            "_tpl": "6810d2c6485a5ea11b01e3ad",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 19800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3e",
+            "_tpl": "680f55788692125dc00a3354",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 20800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c3f",
+            "_tpl": "680f47b20407db2e550c4311",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 20800,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c40",
+            "_tpl": "68badb6458dbe419740b1520",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 22711,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c41",
+            "_tpl": "68d566f3f3d7cd248f0a06db",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 22711,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c42",
+            "_tpl": "680f87118c5d2ff9020005cd",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 36900,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 3
+    },
+    {
+        "traderId": "5a7c2eca46aef81a7ca2145d",
+        "item": {
+            "_id": "69382015a0c8862138896c43",
+            "_tpl": "680f87196d09c2f0740dd527",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 41500,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5ac3b934156ae10c4430e83c",
+        "item": {
+            "_id": "69382015a0c8862138896c44",
+            "_tpl": "689b8883b49f27df1c0873f8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3942,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 4
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c45",
+            "_tpl": "68b985da5133d696f7032d37",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 315,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c46",
+            "_tpl": "67c5414ed0538d12ec036c0c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 651,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c47",
+            "_tpl": "67c54270b032bbdb530201c2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 756,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c48",
+            "_tpl": "67c5428ab032bbdb530201c4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 819,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c49",
+            "_tpl": "67c54183b032bbdb530201bc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 935,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4a",
+            "_tpl": "67c5412bb032bbdb530201ba",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1302,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4b",
+            "_tpl": "67c54114d0538d12ec036c0a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1764,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4c",
+            "_tpl": "67c5424826265106dd0697a4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 1806,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4d",
+            "_tpl": "68b97e7fd9dbc47f4808b09d",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 2310,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4e",
+            "_tpl": "67c542c126265106dd0697ab",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 3654,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c4f",
+            "_tpl": "6888954ba66a069e0405a9aa",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 5647,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c50",
+            "_tpl": "67c541ba5b84f7f36c03e555",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 6279,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c51",
+            "_tpl": "68540a07961c6f351f04d917",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 8283,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c52",
+            "_tpl": "68540a100103119fd00e115a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 8847,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 1
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c53",
+            "_tpl": "68889c930b29b8032504f369",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 8970,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c54",
+            "_tpl": "6888ac0f5978b35e90010b49",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 9416,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c55",
+            "_tpl": "68b98415032fa71d2a000dab",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 10000,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c56",
+            "_tpl": "67c5425e26265106dd0697a7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11004,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "item": {
+            "_id": "69382015a0c8862138896c57",
+            "_tpl": "68b966e44b7f808d5609ac04",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 12941,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "6617beeaa9cfa777ca915b7c",
+        "item": {
+            "_id": "69382015a0c8862138896c58",
+            "_tpl": "68a5ab09c44fa287ba0a97b5",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 10,
+                "_tpl": "5d235b4d86f7742e017bc88a"
+            }
+        ],
+        "loyaltyLevel": 2
+    },
+    {
+        "traderId": "6617beeaa9cfa777ca915b7c",
+        "item": {
+            "_id": "69382015a0c8862138896c59",
+            "_tpl": "68a5ac69b55a6b93c20a2bc7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 9999999,
+                "UnlimitedCount": true,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 0
+            }
+        },
+        "subItems": [],
+        "barterScheme": [
+            {
+                "count": 11,
+                "_tpl": "5d235b4d86f7742e017bc88a"
+            }
+        ],
+        "loyaltyLevel": 2
+    }
+]

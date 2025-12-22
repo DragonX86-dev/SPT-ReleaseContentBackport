@@ -8,14 +8,13 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
-using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services.Mod;
 
 namespace ReleaseContentBackport;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader)]
 public class ReleaseContentBackportExtension(
     ModHelper modHelper,
     DatabaseServer databaseServer,
@@ -36,6 +35,7 @@ public class ReleaseContentBackportExtension(
 
         AddNewWeaponModulesToDatabase();
         LoadTraderAssort();
+        LoadItemsPresets();
         LoadItemsConfig();
         
         logger.LogWithColor("[ReleaseContentBackport] The mod is loaded");
@@ -87,10 +87,19 @@ public class ReleaseContentBackportExtension(
         {
             var itemId = traderAssort.Item.Id;
             var trader = databaseServer.GetTables().Traders[traderAssort.TraderId];
-            
+            trader.Base.ItemsSell![$"{traderAssort.LoyaltyLevel}"].IdList.Add(traderAssort.Item.Template);
+
             trader.Assort.Items.Add(traderAssort.Item);
             trader.Assort.LoyalLevelItems[itemId] = traderAssort.LoyaltyLevel;
             trader.Assort.BarterScheme[itemId] = [traderAssort.BarterScheme];
+        }
+    }
+
+    private void LoadItemsPresets()
+    {
+        foreach (var (key, value) in GlobalValues.ItemPresets)
+        {
+            databaseServer.GetTables().Globals.ItemPresets[key] = value;
         }
     }
 

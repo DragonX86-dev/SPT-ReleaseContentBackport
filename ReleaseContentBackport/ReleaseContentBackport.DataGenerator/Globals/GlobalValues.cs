@@ -14,6 +14,10 @@ public class GlobalValues(ModHelper modHelper) : IOnLoad
     public static Dictionary<MongoId, int> ItemPrices { get; private set; } = null!;
     
     public static Dictionary<MongoId, TemplateItem> ReleaseItems { get; private set; } = null!;
+    
+    public static List<MongoId> ModuleCategories { get; private set; } = null!;
+    
+    public static List<MongoId> WeaponCategories { get; private set; } = null!;
 
     public static Dictionary<MongoId, ItemLocale> EnItemLocales { get; private set; } = null!;
    
@@ -25,6 +29,9 @@ public class GlobalValues(ModHelper modHelper) : IOnLoad
 
         ItemPrices = modHelper.GetJsonDataFromFile<Dictionary<MongoId, int>>(modPath, "data/items-prices.json");
         ReleaseItems = modHelper.GetJsonDataFromFile<Dictionary<MongoId, TemplateItem>>(modPath, "data/items.json");
+
+        ModuleCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(modPath, "data/categories/moduleCategories.json");
+        WeaponCategories = modHelper.GetJsonDataFromFile<List<MongoId>>(modPath, "data/categories/weaponCategories.json");
         
         EnItemLocales = modHelper.GetJsonDataFromFile<Dictionary<MongoId, ItemLocale>>(modPath, "data/locales/en.json");
         RuItemLocales = modHelper.GetJsonDataFromFile<Dictionary<MongoId, ItemLocale>>(modPath, "data/locales/ru.json");   
